@@ -2,9 +2,9 @@ import { v2 as cloudNary } from "cloudinary";
 import fs from "fs";
 
 cloudNary.config({
-  cloud_name: process.env.CLOUDNARY_CLOUD_NAME,
-  api_key: process.env.CLOUDNARY_API_KEY,
-  api_secret: process.env.CLOUDNARY_API_SECRET,
+  cloud_name: "ddnvxfmpl",
+  api_key: 458547287864958,
+  api_secret: "Hll90ncxpJEct8WG_W-rK9Zz88M",
 });
 const uploadCloudNary = async (localFilePath) => {
   try {
